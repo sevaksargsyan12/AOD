@@ -1,0 +1,9 @@
+<div class="country-wrapper">
+  <input type="text" (keyup)="search($event.target.value)">
+  <ul>
+    <li *ngFor="let country of countries">
+      <img [src]="country.flag" [alt]="" [title]="country.name">
+      <span>{{country.name}}</span>
+    </li>
+  </ul>
+</div>

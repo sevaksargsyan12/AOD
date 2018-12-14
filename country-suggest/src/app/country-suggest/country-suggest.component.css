@@ -1,0 +1,27 @@
+
+.country-wrapper {
+  padding: 50px;
+}
+.country-wrapper input {
+  padding: 5px;
+}
+.country-wrapper  ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.country-wrapper  ul li {
+  display: block;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.country-wrapper  ul li img {
+  max-width: 40px;
+  display: block;
+  float: left;
+}
+.country-wrapper  ul li span {
+  line-height: 2.5;
+  display: block;
+  float: left;
+  padding: 0 10px;
+}
